@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="infocss.css">
+<link rel="import" href="Dog.html">
+    <link rel="import" href="Cat.html">
+
+  <title>Bootstrap Theme</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="fixed-top navbar navbar-expand-sm bg-light navbar-light scroll-navbar" id="main-nav" style="box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
+    <div class="container">
+      <a href="index.php" class="navbar-logo"><img src="img/Zoaki.png" width="15%" height="15%" alt="" class="logo-img logo-img2"></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto" data-spy="affix" data-offset-top="200">
+          <li class="nav-item">
+            <a href="index.php" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="missfound.php" class="nav-link">Missing & Found</a>
+          </li>
+          <li class="nav-item">
+            <a href="adopt.php" class="nav-link">Adoption</a>
+          </li>
+          <li class="nav-item">
+            <a href="info.html" class="nav-link">Information</a>
+          </li>
+          <li class="nav-item">
+            <a href="about/about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://github.com/Nnamezie/Zoaki" style="color:purple" class="nav-link">
+              GitHub
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Showcase -->
+  <section id="showcase">
+    <div id="slider4" class="carousel slide mb-5" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-item-img-1 active">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Slide One</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, laudantium!</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item carousel-item-img-2">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Slide One</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, laudantium!</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item carousel-item-img-3">
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Slide One</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, laudantium!</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <a href="#slider4" class="carousel-control-prev" data-slide="prev"> <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#slider4" class="carousel-control-next" data-slide="next"> <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+  </section>
+<!-- START HERE -->
+  <!-- Type Your code below. -->
+<div class="jumbotron text-center">
+  <h1>Dog Information</h1>
+    <p><em>Basic information on Man's Best Friend!</em></p>
+</div>
+<div>
+<div class = "dog-image"></div><br/>
+  <p style="font-size: 30px; font-style: italic">Wellness and Vaccines</p>
+  <p style="font-size: 20px;">
+    When it comes to your canine companion, getting them vaccinated is very important. As a young pup, it is especially
+    important to get their vaccines done as soon as they are at the appropriate age, usually starting at 6-weeks-old.
+    This may include a wellness exam, tests for intestinal parasites, and the first boosters for DHPP, DPP, or DAP 
+    (includes distemper, adenovirus, hepatitis, parvovirus, parainfluenza, depending on the veterinarian). Next, they 
+    should get their rabies vaccine. Rabies vaccines have different time lengths depending on the age of your dog.
+    Additional vaccines, including bordetella, lyme, rattlesnake, influenza and leptospirosis, can be requested if needed.
+  </p>
+  <p style="font-size: 30px; font-style: italic">Neuter and Spay</p>
+  <p style="font-size: 20px;">
+    Neuter and spay surgery is the removal of the animal's ability to reproduce, thus avoiding possible cancer, infections, 
+    unintended pregnancy, and behavioral issues. Most vets would suggest having your dog get this surgery when they are 
+    six-months-old. 
+  </p>
+  <p style="font-size: 30px; font-style: italic">Flea, Tick, and Heartworm and Internal Parasite Prevention</p>
+  <p style="font-size: 20px;"> 
+    Fleas and ticks are the main parasites owners try to avoid. There are many over-the-counter medications, collars, 
+    and shampoos that can relieve your pets from those parasites, as well as prescriptions obtained from a veterinarian. 
+    There are also many parasites that could be living inside of your dog. Parasites like hookworms, roundworms, and 
+    heartworms can infect a dog from the environment. If your dog goes outside, they are at risk for these parasites, 
+    as well as ringworm and mites that can affect the skin. Talk to your veterinarian to determine the right medications
+    to kill and prevent any infestations. 
+  </p>
+
+
+  <p style="font-size: 30px; font-style: italic">Lifespan & Sleeptime</p>
+  <p style="font-size: 20px;"> 
+   The lifespan of your canine companion will vary based on breed, size, lifestyle, and medical history. The average
+   lifespan for a small dog under 20 pounds is around 13 years, a medium-sized dog around 11 years, and large dog 
+   around 9 years.
+   The amount of sleep a dog will get will again vary on breed, age, size, and lifestyle. The average dog will sleep 
+   between 12 and 14 hours per day. Larger dogs, dogs with lower activity levels, puppies and senior dogs will sleep for
+   longer periods of time.
+  </p>
+  <p style="font-size: 30px; font-style: italic">Exercise</p>
+  <p style="font-size: 20px;"> 
+    As with every person and every animal, exercise is an important part of healthy living for your dog. Every dog is an 
+    individual, with individual exercise needs. Puppies, and working and athletic breeds will usually require more 
+    exercise. Exercise needs will also change with different personalities. If at any time you doubt your dog's exercise
+    needs being matched, consult with your veterinarian. Obesity in pets is just as serious a disease as in humans.
+  </p>
+
+
+</div>
+
+
+  
+  
+
+
+
+
+<!-- Footer -->
+  <div class="gap"></div>
+  <footer id="main-footer" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-4">
+          <h3>Zoaki</h3>
+          <p>Copyright &copy; <span id="year"></span></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+    //configure slider
+    $('.carousel').carousel({
+      interval: 6000,
+      pause: 'hover'
+    });
+
+
+  </script>
+</body>
+</html>
